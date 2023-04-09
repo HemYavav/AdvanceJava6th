@@ -1,7 +1,12 @@
 package advancejava6th;
 
-import javax.swing.*;
+import javax.swing.JFrame;
 import java.awt.*;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
 
 class LoginForm1 extends JFrame {
@@ -13,10 +18,10 @@ class LoginForm1 extends JFrame {
 //    JTextField usernameText;
 //    JPasswordField passwordText;
     
-        private JPanel panel;
-    private JLabel usernameLabel, passwordLabel, headingJLabel;
-    private JTextField usernameField;
-    private JPasswordField passwordField;
+         JPanel panel;
+     JLabel usernameLabel, passwordLabel, headingJLabel;
+     JTextField usernameField;
+     JPasswordField passwordField;
     private JButton loginButton;
 
 
@@ -44,7 +49,9 @@ class LoginForm1 extends JFrame {
         
         
         headingJLabel = new JLabel("Login Form");
+        headingJLabel.setFont(headingJLabel.getFont().deriveFont(20.0f).deriveFont(Font.BOLD));
                 headingJLabel.setBounds(150, 10, 150, 25);
+                
                 panel.add(headingJLabel);
         
         
