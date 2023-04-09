@@ -3,6 +3,7 @@ package advancejava6th;
 import java.awt.Color;
 import java.awt.Font;
 import java.util.Vector;
+import javax.swing.ButtonGroup;
 import javax.swing.ComboBoxEditor;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -69,6 +70,11 @@ class RegisterForm extends JFrame {
         femaleJRadioButton = new JRadioButton("Female");
         femaleJRadioButton.setBounds(160, 110, 70, 25);
         panel.add(femaleJRadioButton);
+        
+        
+        ButtonGroup buttonGroup = new ButtonGroup();
+        buttonGroup.add(maleJRadioButton);
+        buttonGroup.add(femaleJRadioButton);
 
         //
         selectCountryJLabel = new JLabel("Select Country: ");
