@@ -15,6 +15,8 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.plaf.basic.BasicComboBoxEditor;
 
+//qwertyuiuytrew
+
 class RegisterForm extends JFrame {
 
     JPanel panel;
@@ -118,6 +120,8 @@ class RegisterForm extends JFrame {
         
         add(panel);
         setVisible(true);
+        
+      
 
     }
 
@@ -129,6 +133,10 @@ public class GUIControls {
 
         new RegisterForm();
 
+        
     }
+      public static void sum(){
+          
+        }
 
 }
