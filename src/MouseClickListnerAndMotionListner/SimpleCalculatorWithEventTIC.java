@@ -66,7 +66,7 @@ class Calculator extends JFrame implements ActionListener{
         
         if(e.getSource()==btnAdd)
         {
-            int sum = a + b;
+            float sum = (a + b);
             thirdText.setText(String.valueOf(sum));
         }
         if(e.getSource()==btnSub)
