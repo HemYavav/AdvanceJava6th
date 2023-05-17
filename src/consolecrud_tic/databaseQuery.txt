@@ -3,9 +3,5 @@
 CREATE DATABASE triton_jdbc;
 USE triton_jdbc;
 
-CREATE TABLE student(
-    sid int(10) PRIMARY KEY,
-    sname varchar(50) not null,
-    sage int(3) NOT null CHECK (sage >= 0 AND sage <= 100)   
-);
+CREATE TABLE student( sid int(10),  sname varchar(50) not null,   sage int(3) NOT null CHECK (sage >= 0 AND sage <= 100));
 
