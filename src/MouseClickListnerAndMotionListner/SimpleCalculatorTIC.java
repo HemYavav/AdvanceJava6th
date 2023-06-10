@@ -3,7 +3,7 @@ package MouseClickListnerAndMotionListner;
 import javax.swing.*;
 
 class Calculator extends JFrame{
-    JLabel lblMsg, firstLabel, secondLabel, resultLabel;
+     JLabel lblMsg, firstLabel, secondLabel, resultLabel;
     JTextField firstText, secondText, thirdText;
     JButton btnAdd, btnSub, btnProd, btnDiv;
     
