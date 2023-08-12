@@ -3,17 +3,19 @@ package CRUD_Operation_UsingGUI;
 
 import javax.swing.*;
 
-class SwingDatabase
+class SwingDatabaseTask
 {
     JFrame jframe;
     JLabel lbl1, lbl2, lbl3;
     JTextField txt1, txt2, txt3;
     JButton insert, update, delete, view;
     
-    public SwingDatabase()
+    public SwingDatabaseTask()
     {
             jframe=new JFrame("Student_Info System");
-            
+                           
+            jframe.setLayout(null);
+            jframe.setSize(700, 200);
             lbl1=new JLabel("Student Id:");
             lbl1.setBounds(20, 12, 100, 10);
             jframe.add(lbl1);
@@ -50,9 +52,7 @@ class SwingDatabase
             view=new JButton("View");
             view.setBounds(300, 140, 80, 20);
             jframe.add(view);
-               
-            jframe.setLayout(null);
-            jframe.setSize(700, 200);
+
             jframe.setLocationRelativeTo(null);
             jframe.setVisible(true);
             jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -60,7 +60,7 @@ class SwingDatabase
 }
 
 
-public class SwingDatabaseIn_TIC {
+public class SwingDatabaseInTask_TIC {
     public static void main(String[] args) {
         new SwingDatabase();
         

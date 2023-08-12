@@ -87,8 +87,6 @@ class RegistrationForm extends JFrame {
         hobies.add("Speaking");
         hobies.add("Announcing");
         hobies.add("Gossipping");
-                
-
 
 //                Choice hobbieChoice= new Choice(hobies);
         hobies.setBounds(105, 130, 100, 50);
@@ -96,8 +94,7 @@ class RegistrationForm extends JFrame {
 
         add(panel);
         setVisible(true);
-        
-        
+
         addressJLabel = new JLabel("Address: ");
         addressJLabel.setBounds(25, 180, 70, 25);
         panel.add(addressJLabel);
@@ -106,17 +103,14 @@ class RegistrationForm extends JFrame {
         commentsJTextArea.setBounds(110, 190, 225, 120);
 //        commentsJTextArea.scrollRectToVisible();
         commentsJTextArea.setBackground(Color.gray);
-        
+
         panel.add(commentsJTextArea);
-        
-        
-        
+
         courseJLabel = new JLabel("Course");
         courseJLabel.setBounds(25, 325, 70, 25);
         panel.add(courseJLabel);
-        
-        
-Choice courseArrayList = new Choice();
+
+        Choice courseArrayList = new Choice();
 //ArrayList<String> courseArrayList = new ArrayList<String>();
         courseArrayList.add("Bsc. CSIT");
         courseArrayList.add("Bsc. AG");
@@ -124,17 +118,14 @@ Choice courseArrayList = new Choice();
         courseArrayList.add("Bsc. IT");
         courseArrayList.add("BCA");
         courseArrayList.add("BALLB");
-        
+
         courseArrayList.setBounds(110, 325, 120, 25);
         panel.add(courseArrayList);
-        
-        
-        
+
         semesterJLabel = new JLabel("Semester");
         semesterJLabel.setBounds(25, 355, 70, 25);
         panel.add(semesterJLabel);
-        
-      
+
         Choice semesterChoice = new Choice();
         semesterChoice.add("1");
         semesterChoice.add("2");
@@ -144,35 +135,26 @@ Choice courseArrayList = new Choice();
         semesterChoice.add("6");
         semesterChoice.add("7");
         semesterChoice.add("8");
-        
-                semesterChoice.setBounds(110, 355, 120, 25);
-                panel.add(semesterChoice);
 
-        
-                        btnSave = new JButton("Save");
-                btnSave.setBackground(Color.blue);
-                btnSave.setForeground(Color.WHITE);
+        semesterChoice.setBounds(110, 355, 120, 25);
+        panel.add(semesterChoice);
+
+        btnSave = new JButton("Save");
+        btnSave.setBackground(Color.blue);
+        btnSave.setForeground(Color.WHITE);
         btnSave.setBounds(100, 395, 90, 25);
         panel.add(btnSave);
-        
+
         btnCancel = new JButton("Cancel");
         btnCancel.setBounds(230, 395, 90, 25);
         btnCancel.setForeground(Color.white);
         btnCancel.setBackground(Color.red);
         panel.add(btnCancel);
-
-
-
-
-
     }
-
 }
-
 public class StudentRegistrationForm {
 
     public static void main(String[] args) {
         new RegistrationForm();
     }
-
 }
