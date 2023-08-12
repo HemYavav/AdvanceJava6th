@@ -1,16 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package advancejava6th.Design;
 
 import java.awt.Color;
 import javax.swing.*;
 
-/**
- *
- * @author MODERN
- */
+
 public class PanelDemoTIC extends JFrame {
 
     JPanel panel2, panel3, panel4, panel5;

@@ -1,11 +1,5 @@
 package advancejava6th.Design;
 
-/*
-5(h) Write a program to display the record from the table students who have got distinction and have a 
-major subject Data Science. Assume that the student table in the database College and contains the 
-column Roll no, Name, Level, Division and Major.
-*/
-
 import java.sql.*;
 import java.util.logging.*;
 

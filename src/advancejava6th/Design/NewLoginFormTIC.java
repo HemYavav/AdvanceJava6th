@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package advancejava6th.Design;
 import javax.swing.*;
 
@@ -36,10 +33,7 @@ class LoginForm extends JFrame{
         setVisible(true);
     }
 }
-/**
- *
- * @author MODERN
- */
+
 public class NewLoginFormTIC {
 
     /**
